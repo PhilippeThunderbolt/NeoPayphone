@@ -20,15 +20,15 @@ The Neotropolis Payphone is a public payphone modified using an Arduino UNO, pow
 Updates in this version:
 
 Replaced sound board with Adafruit AudioFX (16Mb max size), USB updatable.
-Added external jack and speaker to increase ring loudness (amplifier volume knob still works)
+Added external jack and speaker to increase ring loudness (amplifier volume knob still works).
 Drilled a bigger hole in the back case to allow the power and speaker cables to be easily passed through for connection.
-Reduced lag in keypad entry
-Added more error messages to LCD screen to help troubleshooting
+Reduced lag in keypad entry. 
+Added more error messages to LCD screen to help troubleshooting.
 Increased number of incoming calls to 8, by requiring 2 button presses on the remote e.g. AA, AB.  As the button is pressed it will display on the LCD to aid in troubleshooting.
 Smoother operation overall.
-Optimized memory - the UNO is quite constrained and only has 2Gb of working memory, so have made all file names numeric to store them as integers rather than strings
+Optimized memory - the UNO is quite constrained and only has 2Mb of working memory, so have made all file names numeric to store them as integers rather than strings
 The sound board is connected with pin wires that are taped down, to allow for future replacement of the microcontroller.
-The code has been rewritten as a state machine to make maintenance much easier. Anyone who understands arduino code should be able to continue extending this or make needed changes.
+The code has been rewritten as a state machine to make understanding and maintenance much easier. Anyone who understands arduino code should be able to continue extending this or make needed changes.
 
 To update sound files:
 
