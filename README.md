@@ -102,41 +102,25 @@ Components, from top left clockwise:
 4. 	Arduino UNO microcontroller
 
 
-Summary of All Pins Used
-Pin
-Usage
-2
-Keypad Row 4
-3
-Keypad Row 3
-4
-Keypad Row 2
-5
-Keypad Row 1
-6
-Keypad Column 3
-7
-Keypad Column 2
-8
-Keypad Column 1
-9
-Phone Receiver Hook
-10
-AudioFX Reset
-11
-AudioFX RX
-12
-AudioFX TX
-13
-AudioFX Activity
-14
-Keyfob Button C
-15
-Keyfob Button B
-16
-Keyfob Button A
-17
-Keyfob Button D
+| Arduino Pin  | Usage                  |
+|-----:|------------------------|
+| 2    | Keypad Row 4           |
+| 3    | Keypad Row 3           |
+| 4    | Keypad Row 2           |
+| 5    | Keypad Row 1           |
+| 6    | Keypad Column 3        |
+| 7    | Keypad Column 2        |
+| 8    | Keypad Column 1        |
+| 9    | Phone Receiver Hook    |
+| 10   | AudioFX Reset          |
+| 11   | AudioFX RX             |
+| 12   | AudioFX TX             |
+| 13   | AudioFX Activity       |
+| 14   | Keyfob Button C        |
+| 15   | Keyfob Button B        |
+| 16   | Keyfob Button A        |
+| 17   | Keyfob Button D        |
 
-A0-A5 are used for the LCD Screen
+**Notes:**
+- Pins **A0–A5** are used for the **LCD screen**.
 
